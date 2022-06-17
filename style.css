@@ -9,6 +9,8 @@ body{
     font-family: lexend deca;
     font-weight: 400;
     font-size: 15px;
+    text-align: center;
+    justify-content: center;
 }
 @media screen and(max-width:1440px) { body{
     background-color: white;
@@ -30,18 +32,24 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     height: 100vh;
     color: white;
+    /* width: 50%; */
    
+}
+.all{
+    width: 50%;
+    display: flex;
 }
 .column{
     float: left;
-    /* width: 31px; */
+    /* width: 50%; */
     padding: 15px;
     text-align: justify;
     /* margin: 50px; */
     /* border: 1px solid black; */
-    height: 50vh;
+    height: 60vh;
 }
 .sedans{
        background-color:  hsl(31, 77%, 52%);
